@@ -8,6 +8,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+          <h2>Hello React</h2>
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
@@ -20,6 +21,18 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <div>
+          <span>Hello React</span>
+          <span>Hello React</span>
+          <span>Hello React</span>
+          <span>Hello React</span>
+          <span>Hello React</span>
+          <span>Hello React</span>
+          <span>Hello React</span>
+          <span>Hello React</span>
+          <span>Hello React</span>
+          <span>Hello React</span>
+        </div>
       </div>
     );
   }
