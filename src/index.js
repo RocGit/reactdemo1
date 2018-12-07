@@ -1,13 +1,19 @@
-import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-// import React from 'react';
+import React from 'react';
+// import React, { Component } from 'react';
 // import App from './App';
 
 // import Likebutton from './Components/Buttons/LikeButton'
 // import Index from './Themes'
-import CommentApp from './Gallery/Comment/CommentApp'
+// import CommentApp from './Gallery/Comment/CommentApp'
+// import Index from './Zoo/ComponentMount/'
+// import Index from './Zoo/OPTDOM/'
+// import Index from './Zoo/Container/'
+// import Index from './Zoo/Style/'
+// import Index from './Zoo/ParamValidate/'
+import Index from './Gallery/CommentS2/'
 
 
 // ReactDOM.render(<Index />, document.getElementById('root'));
@@ -17,15 +23,5 @@ import CommentApp from './Gallery/Comment/CommentApp'
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
 serviceWorker.unregister();
-
-class Index extends Component {
-  render() {
-    return (
-      <div>
-        <CommentApp></CommentApp>
-      </div>
-    )
-  }
-}
 
 ReactDOM.render(<Index />, document.getElementById('root'));
