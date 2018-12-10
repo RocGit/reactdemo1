@@ -13,7 +13,8 @@ import React from 'react';
 // import Index from './Zoo/Container/'
 // import Index from './Zoo/Style/'
 // import Index from './Zoo/ParamValidate/'
-import Index from './Gallery/CommentS2/'
+// import Index from './Gallery/CommentS2/'
+import Index from './Gallery/CommentS3/'
 
 
 // ReactDOM.render(<Index />, document.getElementById('root'));
