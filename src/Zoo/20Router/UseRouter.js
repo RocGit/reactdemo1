@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-// import { render } from 'react-dom'
 
 // 首先我们需要导入一些组件...
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'

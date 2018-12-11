@@ -6,7 +6,7 @@ import NaviLink from './03-NaviLink'
 import Histories from './05-Histories'
 import Topic from './04-RouterMatch'
 import UseRouter from './UseRouter'
-import BrowserRouter from './BrowserRouter'
+import ActiveLinks from './06-ActiveLinks'
 
 class Index extends Component {
 
@@ -28,10 +28,14 @@ class Index extends Component {
         <hr></hr>
         <Histories />
         <hr></hr>
-        <UseRouter />
+
+        <ActiveLinks />
         <hr></hr>
 
-        <BrowserRouter />
+
+
+        <UseRouter />
+        <hr></hr>
       </div>
     )
   }
