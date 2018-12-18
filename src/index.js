@@ -17,7 +17,8 @@ import React from 'react';
 // import Index from './Zoo/10Higher-OrderComponents/'
 // import Index from './Gallery/CommentS3/'
 // import Index from './Zoo/20Router/'
-import Index from './Zoo/11Forms/'
+// import Index from './Zoo/11Forms/'
+import Index from './Zoo/12StateUp/'
 
 
 // ReactDOM.render(<Index />, document.getElementById('root'));
