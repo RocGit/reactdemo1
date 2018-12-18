@@ -18,7 +18,8 @@ import React from 'react';
 // import Index from './Gallery/CommentS3/'
 // import Index from './Zoo/20Router/'
 // import Index from './Zoo/11Forms/'
-import Index from './Zoo/12StateUp/'
+// import Index from './Zoo/12StateUp/'
+import Index from './Zoo/13ReactConcept'
 
 
 // ReactDOM.render(<Index />, document.getElementById('root'));
