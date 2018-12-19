@@ -2,11 +2,14 @@ import React from 'react'
 
 
 class CategoryRow extends React.Component {
+
   render() {
     return (
-      <div>
-        {this.props.category}
-      </div>
+      <tr>
+        <th colSpan="2">
+          {this.props.category}
+        </th>
+      </tr>
     )
   }
 }
